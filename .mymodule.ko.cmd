@@ -1,0 +1,1 @@
+cmd_/home/bobby/Desktop/kernel/linux_driver_tutorial/mymodule.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/bobby/Desktop/kernel/linux_driver_tutorial/mymodule.ko /home/bobby/Desktop/kernel/linux_driver_tutorial/mymodule.o /home/bobby/Desktop/kernel/linux_driver_tutorial/mymodule.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/bobby/Desktop/kernel/linux_driver_tutorial/dev_nr/dev_nr.mod := printf '%s\n'   dev_nr.o | awk '!x[$$0]++ { print("/home/bobby/Desktop/kernel/linux_driver_tutorial/dev_nr/"$$0) }' > /home/bobby/Desktop/kernel/linux_driver_tutorial/dev_nr/dev_nr.mod

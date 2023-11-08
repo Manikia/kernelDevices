@@ -1,0 +1,1 @@
+cmd_/home/bobby/Desktop/kernel/linux_driver_tutorial/Module.symvers :=  scripts/mod/modpost -m -a     -o /home/bobby/Desktop/kernel/linux_driver_tutorial/Module.symvers -T /home/bobby/Desktop/kernel/linux_driver_tutorial/modules.order -i Module.symvers -e 

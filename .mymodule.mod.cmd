@@ -1,0 +1,1 @@
+cmd_/home/bobby/Desktop/kernel/linux_driver_tutorial/mymodule.mod := printf '%s\n'   mymodule.o | awk '!x[$$0]++ { print("/home/bobby/Desktop/kernel/linux_driver_tutorial/"$$0) }' > /home/bobby/Desktop/kernel/linux_driver_tutorial/mymodule.mod
