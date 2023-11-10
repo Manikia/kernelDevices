@@ -1,4 +1,4 @@
-obj-m += read_write.o
+obj-m += read_write1.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
